@@ -1,1 +1,129 @@
-/* CSS stillerinizi buraya girin */
+* {
+  font-family: cursive;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(23, 156, 218, 0.952);
+}
+
+.menu-link {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.giris {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profil-foto {
+  text-align: left;
+  width: 30%;
+}
+
+.profil-foto img {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.menu-link:hover {
+  background-color: rgb(44, 62, 221);
+  color: white;
+}
+
+.container {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: rgb(23, 187, 216);
+}
+
+.contact-container {
+  display: block;
+}
+
+.buyuk-resim {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buyuk-resim img {
+  width: 50%;
+  margin: 25px;
+}
+
+.batu-resim {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.batu-resim img {
+  width: 30%;
+  margin: 25px;
+}
+
+.contact-resim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-resim img {
+  width: 40%;
+  margin: 145px;
+}
+
+.isim {
+  padding-bottom: 20px;
+}
+
+.kucuk-resim {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kucuk-resim img {
+  width: 20%;
+}
+
+.yazi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projeler-link a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.projeler-link a:hover {
+  background-color: rgb(76, 112, 230);
+  color: white;
+}
+
+p {
+  margin-bottom: 200px;
+}
+
+.contact {
+  font-size: 200%;
+}
+
+.footer-content {
+  text-align: center;
+  background-color: rgba(23, 156, 218, 0.952);
+  padding: 85px;
+}
